@@ -4,3 +4,4 @@ pandas
 deepface
 pillow
 opencv-python
+tf-keras
