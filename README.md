@@ -21,9 +21,24 @@ Experience the functionality of our face recognition model, which has been train
 ###### Acknowledgement : For details on the deployment of the model using Streamlit, refer to this [repository](https://github.com/NikhilKalloli/Face-Recognition).
 
   ## Installation
-1. Clone the Repository : `https://github.com/sOR-o/Face-Recognition.git`
-2. Install Dependencies : `pip install -r requirements.txt`
-3. play with code.
+Follow these steps to set up the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/sOR-o/Face-Recognition.git
+cd Face-Recognition
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+pip install deepface
+pip install -e .
+
+# Ready to go!
+```
 
 -Can be improved by transfer learning (obviously 😉)
 
